@@ -1,0 +1,21 @@
+reset-mfa`user-email exclusion-period`Reset MFA token for a User with exclusion period for MFA in days`/jc reset-mfa example@fundingsocieties.com 7 OR /jc reset-mfa  @user 7
+user-unlock`user-email`Unlock a locked User`/jc user-unlock example@fundingsocieties.com OR /jc user-unlock @user
+list-user-info`user-email`List a JC attributes of a User account`/jc list-user-info example@fundingsocieties.com OR /jc list-user-info @user
+list-user-attributes`user-email`List all custom attributes from a User account`/jc list-user-attributes example@fundingsocieties.com OR /jc list-user-attributes @user
+list-user-group`user-email`List User Groups that a User is part of`/jc list-user-group example@fundingsocieties.com OR /jc list-user-group  @user
+add-user-group`user-email user-group-name`Add a User to a User Group`/jc add-user-group example@fundingsocieties.com group-name OR /jc add-user-group @user group-name
+remove-user-group`user-email user-group-name`Remove a User from a User Group`/jc remove-user-group example@fundingsocieties.com group-name OR /jc remove-user-group @user group-name
+list-system`user-email`List Systems bound to a User`/jc list-system example@fundingsocieties.com OR /jc list-system @user
+list-system-info`system-name`List info of a System`/jc list-system-info system-name OR /jc list-system-info system-Id
+bind-system-user`user-email system-name`Bind a System to a User`/jc bind-system-user example@fundingsocieties.com system-name OR /jc bind-system-user @user system-name OR /jc bind-system-user example@fundingsocieties.com system-Id OR /jc bind-system-user @user system-Id
+unbind-system-user`user-email system-name`Un-Bind a System from a User`/jc unbind-system-user example@fundingsocieties.com system-name OR /jc unbind-system-user @user system-name OR /jc unbind-system-user example@fundingsocieties.com system-Id OR /jc unbind-system-user @user system-Id
+list-app-bound-user`user-email`List Applications bound to a User`/jc list-app-bound-user example@fundingsocieties.com OR /jc list-app-bound-user @user
+list-user-bound-system`system-name`List Users bound to a System`/jc list-user-bound-system system-name OR /jc list-user-bound-system system-Id
+add-system`system-name system-group-name`Add a System to a System Group`/jc add-system system-name system-group-name OR /jc add-system system-Id system-group-name
+remove-system`system-name system-group-name`Remove a System from a System Group`/jc remove-system system-name system-group-name OR /jc remove-system system-Id system-group-name
+enable-system-totp-login`user-email`Enable System TOTP MFA on login`/jc  enable-system-totp-login example@fundingsocieties.com OR /jc enable-system-totp-login @user
+disable-system-totp-login`user-email`Disable System TOTP MFA on login`/jc  disable-system-totp-login example@fundingsocieties.com OR /jc disable-system-totp-login @user
+list-user-bound-app`app-name`List Users bound to an Application`/jc list-user-bound-app application-name
+list-all-user-group` `Global list of user groups`/jc list-all-user-group
+list-all-system-group` `Global list of system groups`/jc list-all-system-group
+list-user-in-group` `List Users in a User Group`/jc list-user-in-group group-name

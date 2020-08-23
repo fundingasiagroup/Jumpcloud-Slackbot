@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: posgres
+    password: password
+    url: jdbc:postgresql://127.0.0.1:5432/jumpcloudbot
+  flyway:
+    locations: classpath:db/migration
+    schemas: public
+    enabled: true
+jc-api-key:
+slack-signing-secret:
+slack-token:
+allowed-channels:
+base-command: /jc-dev
+domain: example.com
+aws:
+  secretName: dev-jumpcloud-slackbot
+  region: ap-southeast-1
