@@ -135,7 +135,7 @@
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-secretsmanager</artifactId>
-			<version>1.11.846</version>
+			<version>1.11.847</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
