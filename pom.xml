@@ -95,7 +95,7 @@
 		<dependency>
 			<groupId>com.slack.api</groupId>
 			<artifactId>bolt-servlet</artifactId>
-			<version>1.1.5</version>
+			<version>1.2.1</version>
 		</dependency>
 		<dependency>
 			<groupId>com.squareup.okio</groupId>
